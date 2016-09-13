@@ -17,9 +17,16 @@
 
 .btn-default:hover {
     color: #333;
-    background-color: #071d22;
+    background-color: #111d20;
     border-color: #f1d018;
 }
+
+.btn-default:active {
+    color: #333;
+    background-color: #111d20;
+    border-color: #f1d018;
+}
+
 
 #outerWrapper {
   background-image: url("http://pure.bike/img/background_1.jpg");
@@ -85,12 +92,16 @@
 }
 
 .icons {
-  font-size:1em;
+  font-size:.5em;
 }
 
 .icons a{
   font-style: normal;
   color: #f1d018;
+  font-family: "brandon-grotesque";
+  font-weight:bold;
+  text-transform: uppercase;
+  letter-spacing: 0.158em;
 
 }
 
@@ -100,6 +111,7 @@
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
+  text-align: center;
 }
 
 
