@@ -15,6 +15,12 @@
     border-color: #f1d018;
 }
 
+.btn-default:hover {
+    color: #333;
+    background-color: #071d22;
+    border-color: #f1d018;
+}
+
 #outerWrapper {
   background-image: url("http://pure.bike/img/background_1.jpg");
   background-position: top center;
