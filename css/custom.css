@@ -1,4 +1,4 @@
-.jordanschau {
+.pure {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -10,7 +10,7 @@
 }
 
 #outerWrapper {
-  background-image: url("http://jordanschau.com/img/bg-web-small.jpg");
+  background-image: url("http://pure.bike/img/background_1.jpg");
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
@@ -115,9 +115,9 @@
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
   #outerWrapper {
-    background-image: url("http://jordanschau.com/img/bg-sm.jpg");
+    background-image: url("http://pure.bike/img/background_1.jpg");
     background-position: top left;
-    background-image: url("http://jordanschau.com/img/bg-sm.jpg");
+    background-image: url("http://pure.bike/img/background_1.jpg");
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
@@ -151,9 +151,9 @@
   }
   @media screen and (orientation:portrait) {
     #outerWrapper {
-      background-image: url("http://jordanschau.com/img/bg-sm.jpg");
+      background-image: url("http://pure.bike/img/background_1.jpg");
       background-position: top left;
-      background-image: url("http://jordanschau.com/img/bg-sm.jpg");
+      background-image: url("http://pure.bike/img/background_1.jpg");
       background-position: top center;
       background-size: cover;
       background-attachment: fixed;
