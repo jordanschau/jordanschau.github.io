@@ -1,0 +1,168 @@
+.jordanschau {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "brandon-grotesque";
+  font-weight:bold;
+  text-transform: uppercase;
+  color: #f1d018;
+  letter-spacing: 0.158em;
+}
+
+#outerWrapper {
+  background-image: url("http://jordanschau.com/img/bg-web-small.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: absolute;
+  min-width: 100%;
+  width: 100%;
+  min-height: 100%;
+  z-index: 1;
+}
+
+
+#bgOverlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  background-color: rgba(0,0,0,.2);
+}
+
+
+#title {
+  width: 90%;
+  left: auto;
+  bottom: auto;
+  top: 50%;
+  position: absolute;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+#title p {
+  font-family: "brandon-grotesque";
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: .9em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-style: normal;
+  color: #f1d018;
+  text-align: center;
+}
+
+#title h1 {
+  font-size: 2.5em;
+  font-weight:bold;
+  letter-spacing: 0.2em;
+}
+
+#title a {
+  font-style: normal;
+  color: #f1d018;
+}
+
+.icons {
+  font-size:1em;
+}
+
+.icons a{
+  font-style: normal;
+  color: #f1d018;
+
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+  #outerWrapper {
+    background-image: url("http://jordanschau.com/img/bg-sm.jpg");
+    background-position: top left;
+    background-image: url("http://jordanschau.com/img/bg-sm.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    min-width: 100%;
+    width: 100%;
+    min-height: 100%;
+    z-index: 1;
+  }
+
+  #title {
+    width: 90%;
+    left: auto;
+    bottom: auto;
+    top: 35%;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+
+  .icons {
+    font-size:2em;
+  }
+
+  .icons a{
+    font-style: normal;
+    color: #f1d018;
+
+  }
+  @media screen and (orientation:portrait) {
+    #outerWrapper {
+      background-image: url("http://jordanschau.com/img/bg-sm.jpg");
+      background-position: top left;
+      background-image: url("http://jordanschau.com/img/bg-sm.jpg");
+      background-position: top center;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      position: absolute;
+      min-width: 100%;
+      width: 100%;
+      min-height: 100%;
+      z-index: 1;
+    }
+  }
+}
